@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('Futura.woff2') format('woff2'),
+       url('Futura.woff') format('woff');
+}
+
+body {
+  font-family: 'Futura', Arial, sans-serif;
+}
+
+
+body {
+  font-family: 'Futura', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
