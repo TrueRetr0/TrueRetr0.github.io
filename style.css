@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Futura';
-  src: url('Futura.woff2') format('woff2'),
-       url('Futura.woff') format('woff');
+  src: url('FuturaLT-Book.woff2') format('woff2'),
+       url('FuturaLT-Book.woff') format('woff');
 }
 
 body {
