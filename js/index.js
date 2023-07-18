@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.body.addEventListener('click', function(event) {
-      const x = event.pageX;
-      const y = event.pageY;
+      const x = event.clientX;
+      const y = event.clientY;
   
       const colors = ['red', 'white', 'blue'];
       colors.forEach(color => createFirework(x, y, color));
