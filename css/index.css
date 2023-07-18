@@ -84,17 +84,17 @@ nav a:hover {
   background-color: #444;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+  animation: boxRadiate 2s linear infinite; 
 }
 
 @keyframes boxRadiate {
-  from {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.6);
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
-  to {
+  100% {
     box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+    border-radius: 50%; 
   }
-}
-
-#text-container {
-  animation: boxRadiate 1s ease-in-out;
 }
