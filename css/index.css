@@ -6,7 +6,15 @@
 
 body {
   font-family: 'Futura', Arial, sans-serif;
-  font-size: 20px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 nav ul {
@@ -17,25 +25,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 20px;
 }
-
-#reveal-button {
-  display: block;
-  margin: 30px auto;
-  padding: 15px 30px;
-  font-size: 24px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  transition: opacity 1s ease-in-out;
-}
-
-#text-container {
-  display: none;
-}
-
 
 nav a {
   display: inline-block;
