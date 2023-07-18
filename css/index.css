@@ -75,3 +75,20 @@ nav a:hover {
     opacity: 0;
   }
 }
+
+.content-box {
+  display: inline-block;
+  background-color: #444; 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+@keyframes boxRadiate {
+  to {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+
+#text-container {
+  animation: boxRadiate 1s ease-in-out; 
+}
