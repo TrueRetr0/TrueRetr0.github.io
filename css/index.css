@@ -4,12 +4,18 @@
        url('../fonts/FuturaLT-Book.woff') format('woff');
 }
 
+:root {
+  --base-font-size: 18px;
+  --nav-link-font-size: 20px;
+  --nav-link-padding: 12px 24px;
+}
+
 body {
   font-family: 'Futura', Arial, sans-serif;
   color: white;
   background-color: #333;
   text-align: center;
-  font-size: 36px;
+  font-size: var(--base-font-size);
 }
 
 nav {
@@ -31,12 +37,12 @@ nav li {
 
 nav a {
   display: inline-block;
-  padding: 24px 48px;
+  padding: var(--nav-link-padding);
   background-color: black;
   color: white;
   border-radius: 10px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: var(--nav-link-font-size)
 }
 
 nav a:hover {
