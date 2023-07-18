@@ -75,3 +75,27 @@ nav a:hover {
     opacity: 0;
   }
 }
+
+.content-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #444;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+  animation: boxRadiate 2s linear infinite;
+}
+
+
+@keyframes boxRadiate {
+  0% {
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+    border-radius: 50%; 
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px; 
+  }
+}

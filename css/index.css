@@ -84,19 +84,18 @@ nav a:hover {
   background-color: #444;
   padding: 25px;
   border-radius: 10px;
-  /* New styles for the box animation */
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
-  animation: boxRadiate 2s linear infinite; /* Animation repeats indefinitely */
+  animation: boxRadiate 2s linear infinite;
 }
 
-/* New CSS for the box animation */
+
 @keyframes boxRadiate {
   0% {
     box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
-    border-radius: 50%; /* Start with a circular appearance */
+    border-radius: 50%; 
   }
   100% {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
-    border-radius: 10px; /* End with rounded corners */
+    border-radius: 10px; 
   }
 }
