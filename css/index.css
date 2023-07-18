@@ -28,7 +28,17 @@ nav li {
   margin-right: 20px;
 }
 
-nav a {
+nav button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
   color: white;
+  border-radius: 10px;
+  border: none;
 }
+
+nav button:hover {
+  background-color: #555;
+}
+
 
