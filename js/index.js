@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
     firework.style.top = `${y}px`;
   
     document.body.appendChild(firework);
-
+  
+    // Remove the firework element after the animation ends
     firework.addEventListener('animationend', function() {
       firework.remove();
     });
