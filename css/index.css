@@ -28,8 +28,13 @@ nav li {
   margin-right: 20px;
 }
 
-nav button {
+nav form {
   display: inline-block;
+}
+
+nav button {
+  font-family: 'Futura', Arial, sans-serif;
+  font-size: 16px;
   padding: 10px 20px;
   background-color: black;
   color: white;
@@ -40,5 +45,4 @@ nav button {
 nav button:hover {
   background-color: #555;
 }
-
 
