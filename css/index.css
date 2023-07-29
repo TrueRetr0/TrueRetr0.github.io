@@ -88,12 +88,24 @@ nav a:hover {
   animation: boxRadiate 2s linear infinite;
 }
 
+@keyframes boxRadiate {
+  0% {
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+    border-radius: 50%;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+}
+
+/* Updated settings button styles */
 .settings-btn {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-color: #ccc;
   border-radius: 50%;
   display: flex;
@@ -102,14 +114,16 @@ nav a:hover {
   cursor: pointer;
 }
 
-.settings-btn i {
-  font-size: 24px;
+.settings-btn img {
+  width: 70%;
+  height: 70%;
 }
 
 .settings-hidden {
   display: none;
 }
 
+/* Additional styles for the settings menu */
 #settings-menu {
   position: fixed;
   top: 50%;
@@ -135,6 +149,7 @@ nav a:hover {
   text-align: left;
 }
 
+/* Switch styles */
 .switch {
   position: relative;
   display: inline-block;
